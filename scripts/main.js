@@ -20,6 +20,7 @@ searchForm.onsubmit = (ev) => {
       rhymeResultsUL.appendChild(rhymeLi);
     });
   });
+
 };
 
 // given a word (string), search for rhymes
@@ -27,6 +28,7 @@ searchForm.onsubmit = (ev) => {
 //  https://rhymebrain.com/talk?function=getRhymes&word=hello
 
 const getRhymes = (word) => {
+
   console.log("attempting to get rhymes for", word);
   return fetch(
     `https://rhymebrain.com/talk?function=getRhymes&word=${word}`
@@ -56,12 +58,12 @@ const searchForBook = (ev) => {
   console.log("search for", word);
   return fetch(`https://gutendex.com/books/?search=${word}`).then((r) =>
     r.json()
-  ).then((bookResultsObj)=> {
+  ).then((bookResultsObj) => {
     // console.log(bookResultsObj.hasOwnProperty('results'))
     const bookCardsArray = bookResultsObj.results.map(bookObj2DOMObj)
     console.log("bookCardsArray", bookCardsArray);
     const bookResultsElem = document.getElementById("book-results");
-    bookCardsArray.forEach(book=>bookResultsElem.appendChild(book))
+    bookCardsArray.forEach(book => bookResultsElem.appendChild(book))
   })
 };
 
@@ -101,5 +103,17 @@ const bookObj2DOMObj = (bookObj) => {
   }
   bookCardDiv.appendChild(bookCardBody)
   return bookCardDiv
-  
+
 };
+
+
+/** Video Game APIS (This is where the fun begins)
+ * 1) https://rapidapi.com/accujazz/api/rawg-video-games-database (special dev key = 0b81130b95524eb6bb292ae0911635a8)
+ * 2) https://rapidapi.com/h0p3rwe/api/youtube-search-and-download
+ * 
+ * Process:
+ * - User types in Game title in Search Bar, Video Game Data Database returns result (information about game)
+ * - Button appears below information that says 'get OST'
+ * - When user clicks this button, YouTube searcher will search for a playlist (takes title, and adds 'OST')
+ * - Returns results below
+ */
