@@ -1,0 +1,477 @@
+{
+  "id": 4332,
+  "slug": "spec-ops-the-line",
+  "name": "Spec Ops: The Line",
+  "name_original": "Spec Ops: The Line",
+  "description": "<p>The Line is the tenth entry into the Spec Ops series, as well as a modernized reboot. Following the worst recorded sandstorms in Dubai, Captain Martin Walker was sent to investigate the events that took place in the city, after it was cut off from all transport and communication. So now the squad of the elite soldiers has to discover, what was meant by the last message they received from the dense wall of raging sand.<br />\nSpec Ops: The Line places the attention on the squad mechanics, where players can give orders to the NPCs, accompanying the player during the game. Aside from the single-player story campaign, players can join the multiplayer matches, which may vary from the solo/team deathmatch to “King of the Hill” type matches. Cooperative missions for two players have been added shortly after the game release. The single player campaign allows players to experiment with the weapons, carrying two at a time and use the environments to their advantage, using hazardous sandstorm to clear-out the enemies.</p>",
+  "metacritic": 76,
+  "metacritic_platforms": [],
+  "released": "2012-06-26",
+  "tba": false,
+  "updated": "2023-04-29T18:19:28",
+  "background_image": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg",
+  "background_image_additional": "https://media.rawg.io/media/screenshots/469/469b0f58403bcf355734811ec8a36ae7.jpg",
+  "website": "http://www.specopstheline.com/",
+  "rating": 4.09,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 860,
+      "percent": 48.1
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 637,
+      "percent": 35.63
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 198,
+      "percent": 11.07
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 93,
+      "percent": 5.2
+    }
+  ],
+  "reactions": {
+    "1": 7,
+    "3": 1,
+    "4": 3,
+    "6": 1,
+    "7": 1,
+    "9": 8,
+    "10": 6,
+    "11": 1,
+    "12": 1,
+    "19": 1
+  },
+  "added": 9253,
+  "added_by_status": {
+    "yet": 468,
+    "owned": 6586,
+    "beaten": 1690,
+    "toplay": 163,
+    "dropped": 309,
+    "playing": 37
+  },
+  "playtime": 5,
+  "screenshots_count": 23,
+  "movies_count": 0,
+  "creators_count": 10,
+  "achievements_count": 151,
+  "parent_achievements_count": 51,
+  "reddit_url": "https://www.reddit.com/r/SpecOpsTheLine/",
+  "reddit_name": "Spec Ops: The Line",
+  "reddit_description": "Ladies and Gentlemen, welcome to Dubai",
+  "reddit_logo": "",
+  "reddit_count": 493,
+  "twitch_count": 118,
+  "youtube_count": 1000000,
+  "reviews_text_count": 20,
+  "ratings_count": 1768,
+  "suggestions_count": 513,
+  "alternative_names": [],
+  "metacritic_url": "",
+  "parents_count": 0,
+  "additions_count": 0,
+  "game_series_count": 8,
+  "user_game": null,
+  "reviews_count": 1788,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 14,
+        "name": "Xbox 360",
+        "slug": "xbox360",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 2774,
+        "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+      },
+      "released_at": "2012-06-26",
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 16,
+        "name": "PlayStation 3",
+        "slug": "playstation3",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 3242,
+        "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+      },
+      "released_at": "2012-06-26",
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "Xbox One",
+        "slug": "xbox-one",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5506,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      },
+      "released_at": "2012-06-26",
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 511710,
+        "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+      },
+      "released_at": "2012-06-26",
+      "requirements": {
+        "minimum": " Minimum\nOS: Windows XP SP3\n                Processor:  Intel Core 2 Duo @ 2Ghz / AMD Athlon 64 X2 equivalent\n                Memory: 2 GB RAM\n                Hard Disk Space:  6 GB free                \n                Video Card: NVIDIA GeForce 8600 / ATI Radeon HD 2600XT (256 MB memory) \n                DirectX®: 9.0\n                Sound: DirectX Compatible\nAdditional: Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include: STEAM Client, Microsoft Direct X, Visual C++ 2008 Redistributable, Visual C++ 2005 SP1 RedistributableCompatible      \n ",
+        "recommended": " Recommended\nOS: Windows Vista/7\n                Processor: 2.4 GHz Quad Core processor\n                Memory: 3 GB RAM\n                Hard Disk Space: 10 GB free               \n                Video Card: NVIDIA GeForce 9800 GTX/ATI Radeon HD 4850 (512+ MB memory) \n                DirectX®: 9.0\n                Sound: DirectX Compatible     \nAdditional: Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include: STEAM Client, Microsoft Direct X, Visual C++ 2008 Redistributable, Visual C++ 2005 SP1 RedistributableCompatible                  "
+      }
+    }
+  ],
+  "stores": [
+    {
+      "id": 465902,
+      "url": "",
+      "store": {
+        "id": 2,
+        "name": "Xbox Store",
+        "slug": "xbox-store",
+        "domain": "microsoft.com",
+        "games_count": 4757,
+        "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"
+      }
+    },
+    {
+      "id": 4660,
+      "url": "",
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 7804,
+        "image_background": "https://media.rawg.io/media/games/b72/b7233d5d5b1e75e86bb860ccc7aeca85.jpg"
+      }
+    },
+    {
+      "id": 19791,
+      "url": "",
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 74480,
+        "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+      }
+    },
+    {
+      "id": 33912,
+      "url": "",
+      "store": {
+        "id": 7,
+        "name": "Xbox 360 Store",
+        "slug": "xbox360",
+        "domain": "marketplace.xbox.com",
+        "games_count": 1912,
+        "image_background": "https://media.rawg.io/media/games/ebd/ebdbb7eb52bd58b0e7fa4538d9757b60.jpg"
+      }
+    },
+    {
+      "id": 320890,
+      "url": "",
+      "store": {
+        "id": 5,
+        "name": "GOG",
+        "slug": "gog",
+        "domain": "gog.com",
+        "games_count": 5089,
+        "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+      }
+    }
+  ],
+  "developers": [
+    {
+      "id": 14073,
+      "name": "Yager",
+      "slug": "yager",
+      "games_count": 3,
+      "image_background": "https://media.rawg.io/media/games/071/071f7506e3b9006a34506e0a2ab0c190.jpg"
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 172235,
+      "image_background": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shooter",
+      "slug": "shooter",
+      "games_count": 59312,
+      "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 204459,
+      "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 29982,
+      "image_background": "https://media.rawg.io/media/games/198/1988a337305e008b41d7f536ce9b73f6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 34745,
+      "image_background": "https://media.rawg.io/media/games/d69/d69810315bd7e226ea2d21f9156af629.jpg"
+    },
+    {
+      "id": 40836,
+      "name": "Full controller support",
+      "slug": "full-controller-support",
+      "language": "eng",
+      "games_count": 14066,
+      "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 29134,
+      "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+    },
+    {
+      "id": 40849,
+      "name": "Steam Cloud",
+      "slug": "steam-cloud",
+      "language": "eng",
+      "games_count": 13887,
+      "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3233,
+      "image_background": "https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Co-op",
+      "slug": "co-op",
+      "language": "eng",
+      "games_count": 9673,
+      "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Story Rich",
+      "slug": "story-rich",
+      "language": "eng",
+      "games_count": 17895,
+      "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+    },
+    {
+      "id": 149,
+      "name": "Third Person",
+      "slug": "third-person",
+      "language": "eng",
+      "games_count": 9215,
+      "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Horror",
+      "slug": "horror",
+      "language": "eng",
+      "games_count": 41707,
+      "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+    },
+    {
+      "id": 40850,
+      "name": "Steam Leaderboards",
+      "slug": "steam-leaderboards",
+      "language": "eng",
+      "games_count": 5770,
+      "image_background": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg"
+    },
+    {
+      "id": 150,
+      "name": "Third-Person Shooter",
+      "slug": "third-person-shooter",
+      "language": "eng",
+      "games_count": 2836,
+      "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+    },
+    {
+      "id": 11669,
+      "name": "stats",
+      "slug": "stats",
+      "language": "eng",
+      "games_count": 4440,
+      "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Dark",
+      "slug": "dark",
+      "language": "eng",
+      "games_count": 13957,
+      "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+    },
+    {
+      "id": 40832,
+      "name": "Cross-Platform Multiplayer",
+      "slug": "cross-platform-multiplayer",
+      "language": "eng",
+      "games_count": 2204,
+      "image_background": "https://media.rawg.io/media/games/6d9/6d92d50affeebf2eb3894d178eb1117e.jpg"
+    },
+    {
+      "id": 70,
+      "name": "War",
+      "slug": "war",
+      "language": "eng",
+      "games_count": 8603,
+      "image_background": "https://media.rawg.io/media/games/8bd/8bda6d876f3e241c6024022299553efd.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Post-apocalyptic",
+      "slug": "post-apocalyptic",
+      "language": "eng",
+      "games_count": 3254,
+      "image_background": "https://media.rawg.io/media/games/14a/14a83c56ff668baaced6e8c8704b6391.jpg"
+    },
+    {
+      "id": 192,
+      "name": "Mature",
+      "slug": "mature",
+      "language": "eng",
+      "games_count": 2105,
+      "image_background": "https://media.rawg.io/media/games/e11/e11325e2f89151d31f612e38dee3b6a0.jpg"
+    },
+    {
+      "id": 81,
+      "name": "Military",
+      "slug": "military",
+      "language": "eng",
+      "games_count": 1336,
+      "image_background": "https://media.rawg.io/media/games/8bd/8bd24e3c15354a9555bb1437fe555a69.jpg"
+    },
+    {
+      "id": 283,
+      "name": "Based On A Novel",
+      "slug": "based-on-a-novel",
+      "language": "eng",
+      "games_count": 43,
+      "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+    },
+    {
+      "id": 285,
+      "name": "Psychological",
+      "slug": "psychological",
+      "language": "eng",
+      "games_count": 1070,
+      "image_background": "https://media.rawg.io/media/screenshots/cbf/cbff63e84d1911eb7f5960239a285d7c.jpg"
+    },
+    {
+      "id": 287,
+      "name": "Political",
+      "slug": "political",
+      "language": "eng",
+      "games_count": 491,
+      "image_background": "https://media.rawg.io/media/games/6d3/6d33014a4ed48a19c30a77ead5a0f62e.jpg"
+    },
+    {
+      "id": 19728,
+      "name": "european",
+      "slug": "european",
+      "language": "eng",
+      "games_count": 12,
+      "image_background": "https://media.rawg.io/media/screenshots/d14/d148f8ffc332b1d0f70be9bad91c2171.jpg"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 358,
+      "name": "2K Games",
+      "slug": "2k-games",
+      "games_count": 206,
+      "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+    },
+    {
+      "id": 7593,
+      "name": "Missing Link Games",
+      "slug": "missing-link-games",
+      "games_count": 6,
+      "image_background": "https://media.rawg.io/media/games/cfb/cfb96f5490b8cf91e9952a8416a71245.jpg"
+    }
+  ],
+  "esrb_rating": {
+    "id": 4,
+    "name": "Mature",
+    "slug": "mature"
+  },
+  "clip": null,
+  "description_raw": "The Line is the tenth entry into the Spec Ops series, as well as a modernized reboot. Following the worst recorded sandstorms in Dubai, Captain Martin Walker was sent to investigate the events that took place in the city, after it was cut off from all transport and communication. So now the squad of the elite soldiers has to discover, what was meant by the last message they received from the dense wall of raging sand.\nSpec Ops: The Line places the attention on the squad mechanics, where players can give orders to the NPCs, accompanying the player during the game. Aside from the single-player story campaign, players can join the multiplayer matches, which may vary from the solo/team deathmatch to “King of the Hill” type matches. Cooperative missions for two players have been added shortly after the game release. The single player campaign allows players to experiment with the weapons, carrying two at a time and use the environments to their advantage, using hazardous sandstorm to clear-out the enemies."
+}

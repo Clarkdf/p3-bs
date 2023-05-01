@@ -1,3 +1,5 @@
+
+/** TODO: Add it so that it clears the GameResults div in index when search is submitted */
 const searchForm = document.getElementById("top-search");
 searchForm.onsubmit = (ev) => {
   console.log("submitted top-search with", ev);
@@ -11,7 +13,9 @@ searchForm.onsubmit = (ev) => {
   const queryText = formData.get("query");
   console.log("queryText", queryText);
 
-  const rhymeResultsPromise = getRhymes(queryText);
+
+  // Dr. Stewart's Example code
+  /*const rhymeResultsPromise = getRhymes(queryText);
   rhymeResultsPromise.then((rhymeResults) => {
     const rhymeListItemsArray = rhymeResults.map(rhymObj2DOMObj);
     console.log("rhymeListItemsArray", rhymeListItemsArray);
@@ -19,8 +23,12 @@ searchForm.onsubmit = (ev) => {
     rhymeListItemsArray.forEach((rhymeLi) => {
       rhymeResultsUL.appendChild(rhymeLi);
     });
-  });
-
+  }); */
+  const gameResultsPromise = getGame(queryText);
+  gameResultsPromise.then((gameResults) => {
+    const gameTitle = gameResults.name; // Store the title for OST search later
+    gameObjDom(gameResults);
+  })
 };
 
 // given a word (string), search for rhymes
@@ -117,3 +125,84 @@ const bookObj2DOMObj = (bookObj) => {
  * - When user clicks this button, YouTube searcher will search for a playlist (takes title, and adds 'OST')
  * - Returns results below
  */
+
+
+// Method connects to the RawG game Database and returns the game if it can find one.
+// Throws an error if it cannor
+const getGame = (game) => {
+  game = game.replaceAll(' ', '-'); // Replace all spaces with '-' for searching Database
+  console.log(game);
+  console.log("Searching database for", game);
+
+  /* Code taken from example provided by API (slightly modified) */
+  const url = `https://rawg-video-games-database.p.rapidapi.com/games/${game}?key=0b81130b95524eb6bb292ae0911635a8`;
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': '4b768059f4msh6f4e170a96ea2dbp162218jsnf21f16eb3364',
+      'X-RapidAPI-Host': 'rawg-video-games-database.p.rapidapi.com'
+    }
+  };
+
+  try {
+    return fetch(url, options)
+      .then((resp) => resp.json());
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+
+// Game results is the resuilts of the game the database
+    // We want to construct a div with a specific format and fill it with information 
+    // from the gameResults object
+// Method constructs and inserts a dom object for displaying gameData taken from the database.
+
+const gameObjDom = (gameData) => {
+  console.log(gameData);
+
+  const gameDiv = document.createElement('div'); // Main game division
+
+  // Add the main header to the division (game title)
+  const gameTitleHeader = document.createElement('h1')
+  gameTitleHeader.innerText = gameData.name_original;
+  gameDiv.appendChild(gameTitleHeader)
+
+  // Add image to division
+  // Note: Database does NOT provide box art for any games (or even art for ALL games)
+  // This is a promotional image
+  const figure = document.createElement('figure');
+  const image = document.createElement('img');
+  image.src = gameData.background_image;
+  figure.appendChild(image);
+  gameDiv.appendChild(figure);
+
+  // Add the description to the division
+  const descriptionP = document.createElement('p');
+  descriptionP.innerText = gameData.description_raw;
+  gameDiv.appendChild(descriptionP);
+
+  // Add a list of available platforms:
+  const platFormList = document.createElement('ul');
+  const platforms = gameData.platforms;
+  platforms.forEach((element) => {
+    const listItem = document.createElement('li');
+    listItem.innerText = element.platform.name;
+    platFormList.appendChild(listItem);
+  });
+  gameDiv.appendChild(platFormList);
+
+  // Add release Data:
+  const releaseDate = document.createElement('p');
+  releaseDate.innerText = "Release Data: " + gameData.released;
+  gameDiv.appendChild(releaseDate);
+
+  // Add Metacritic Score:
+  const score = document.createElement('p');
+  score.innerText = "Metacritic Score: " + gameData.metacritic;
+  gameDiv.appendChild(score);
+
+  // Inject division into dom (HTMTL)
+  const loc = document.getElementById('game-results');
+  loc.appendChild(gameDiv);
+}
