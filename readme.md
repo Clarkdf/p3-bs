@@ -1,7 +1,7 @@
 # JMU CS343 P3 SP23
 ## David Clark
 This project uses two APIs:
-1) https://rapidapi.com/accujazz/api/rawg-video-games-database (special dev key = 0b81130b95524eb6bb292ae0911635a8)
+1) https://rapidapi.com/accujazz/api/rawg-video-games-database
 2) https://rapidapi.com/h0p3rwe/api/youtube-search-and-download
  
 Process:
