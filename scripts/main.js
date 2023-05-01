@@ -26,9 +26,11 @@ searchForm.onsubmit = (ev) => {
   }); */
   const gameResultsPromise = getGame(queryText);
   gameResultsPromise.then((gameResults) => {
-    const gameTitle = gameResults.name; // Store the title for OST search later
     gameObjDom(gameResults);
-  })
+    return gameResults.name; // Return title for OST Ssearch
+  }).then((gameTitle) => {
+    searchForSoundtrack(gameTitle);
+  });
 };
 
 // given a word (string), search for rhymes
@@ -153,9 +155,6 @@ const getGame = (game) => {
 };
 
 
-// Game results is the resuilts of the game the database
-    // We want to construct a div with a specific format and fill it with information 
-    // from the gameResults object
 // Method constructs and inserts a dom object for displaying gameData taken from the database.
 
 const gameObjDom = (gameData) => {
@@ -202,7 +201,14 @@ const gameObjDom = (gameData) => {
   score.innerText = "Metacritic Score: " + gameData.metacritic;
   gameDiv.appendChild(score);
 
-  // Inject division into dom (HTMTL)
+  // Inject division into dom (HTML)
   const loc = document.getElementById('game-results');
   loc.appendChild(gameDiv);
+}
+
+
+// Adds search for Soundtrack functionality
+// Also creates the button
+const searchForSoundtrack = (gameTitle) => {
+  const searchButton = document.createElement('button');
 }
