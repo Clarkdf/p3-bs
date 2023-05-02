@@ -14,3 +14,4 @@ Process:
 - Only pull up the YouTube playlist if a button is pressed
 - Add redirect support for the RawG database search
 - When the search button is pressed, clear the previous search results
+- Update the HTML on the website too include information about the APIS
