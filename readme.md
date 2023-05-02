@@ -10,3 +10,6 @@ Process:
 - When user clicks this button, YouTube searcher will search for a playlist (takes title, and adds 'OST')
 - Returns results below
 
+# TODO:
+- Only pull up the YouTube playlist if a button is pressed
+- Add redirect support for the RawG database search
