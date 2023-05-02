@@ -29,8 +29,10 @@ searchForm.onsubmit = (ev) => {
     gameObjDom(gameResults);
     return gameResults.name; // Return title for OST Ssearch
   }).then((gameTitle) => {
-    searchForSoundtrack(gameTitle);
-  });
+    return searchYouTubePlaylists(gameTitle);
+  }).then((playlists) => {
+    playlistObjDom(playlists.contents[0]) // We're only interested in the first playlist result for this project
+  })
 };
 
 // given a word (string), search for rhymes
@@ -130,7 +132,8 @@ const bookObj2DOMObj = (bookObj) => {
 
 
 // Method connects to the RawG game Database and returns the game if it can find one.
-// Throws an error if it cannor
+// Throws an error if it cannot
+// TODO: Add support for redirection
 const getGame = (game) => {
   game = game.replaceAll(' ', '-'); // Replace all spaces with '-' for searching Database
   console.log(game);
@@ -204,11 +207,44 @@ const gameObjDom = (gameData) => {
   // Inject division into dom (HTML)
   const loc = document.getElementById('game-results');
   loc.appendChild(gameDiv);
-}
+};
 
+// Uses YouTube Search API, returns a long list of playlists 
+// Adds ' OST' to the provided game title
+const searchYouTubePlaylists = (gameTitle) => {
 
-// Adds search for Soundtrack functionality
-// Also creates the button
-const searchForSoundtrack = (gameTitle) => {
-  const searchButton = document.createElement('button');
+  const url = `https://youtube-search-and-download.p.rapidapi.com/search?query=${gameTitle}%OST&hl=en&gl=US&type=p&sort=r`;
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': '4b768059f4msh6f4e170a96ea2dbp162218jsnf21f16eb3364',
+      'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com'
+    }
+  };
+
+  try {
+    return fetch(url, options)
+      .then((resp) => resp.json());
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+const playlistObjDom = (playlist) => {
+  console.log(playlist);
+
+  // Create playlist div object
+  const playListDiv = document.createElement('div'); // create the primary-div
+
+  // Create iframe (for YouTUbe)
+  const iframe = document.createElement('iframe');
+  iframe.width = "420";
+  iframe.height = "315";
+  // Find the SRC
+  iframe.src = `https://www.youtube.com/embed/?listType=playlist&list=${playlist.playlist.playlistId}`
+  playListDiv.appendChild(iframe);
+
+  // Inject division into dom (HTML)
+  const loc = document.getElementById('playlist-results');
+  loc.appendChild(playListDiv);  
 }

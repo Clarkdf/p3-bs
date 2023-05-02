@@ -1,0 +1,4 @@
+{
+  "redirect": true,
+  "slug": "metal-gear-solid-1"
+}

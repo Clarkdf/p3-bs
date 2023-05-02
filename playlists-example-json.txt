@@ -1,0 +1,626 @@
+{
+  "contents": [
+    {
+      "playlist": {
+        "channelId": "UCtlyjyNX2oeidS1ymVZbXvw",
+        "channelName": "gronndar",
+        "playlistId": "PLlDad8qpZy1yogq1aHWrd46rMiIEt9yFO",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/4FwTAZwPAi4/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLDB3m4IPKjn6gwTK4Yd2eXo2AmwBQ",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/4FwTAZwPAi4/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLDs9SRe1ElU5rge65mR_EOM7lIt8A",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/4FwTAZwPAi4/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAoa5Es7A-xNXeowYAW4clOVTIU4w",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/4FwTAZwPAi4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBqpUNK5VedRREz7zkT4B1i9kJRLQ",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops: The Line OST",
+        "videoCount": "103"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UC6OV1f_TXNDk3TWPyz9DbAg",
+        "channelName": "DigitalSoundsGames",
+        "playlistId": "PLB5E59ED5829BDA4C",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLDElT-sVcVCRX5vFtnEVq6EdMd2_w",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLB-azHvvHy3FXk4E6NTp7LGDSgVxg",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLChiLWzI8kLpl3ulFKgduNs6V3WLA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLARRBPCS7q-dN5Dki_qR56Hl8Re9g",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops The Line",
+        "videoCount": "12"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCtlyjyNX2oeidS1ymVZbXvw",
+        "channelName": "gronndar",
+        "playlistId": "PLlDad8qpZy1xgNRNZL6iwgFlBzVcorMmU",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/bt3JWkh1KzQ/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAdxben_501p8Oe7M95U715x6is5w",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/bt3JWkh1KzQ/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLDLBHE06sZN4ZClZ_38ZdfDArgmMw",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/bt3JWkh1KzQ/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC7l0ty97DPKX9vWYHFHTYowC6EcA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/bt3JWkh1KzQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCHikPGJxKKmpy6SC0fYDYMj1O_JQ",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops: The Line Combat OST",
+        "videoCount": "28"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UC0hWgdP7pvMlATTArxO47qQ",
+        "channelName": "Nolden",
+        "playlistId": "PLczT7w2lN8siaKzVAyQOp9VQuZVxg5pRh",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLDElT-sVcVCRX5vFtnEVq6EdMd2_w",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLB-azHvvHy3FXk4E6NTp7LGDSgVxg",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLChiLWzI8kLpl3ulFKgduNs6V3WLA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLARRBPCS7q-dN5Dki_qR56Hl8Re9g",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops The Line OST",
+        "videoCount": "10"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCxkDW3ciJSaEGd-w7YhHqhw",
+        "channelName": "Faiz Shaikh",
+        "playlistId": "PLfY62ZtOwGj5TOtQkEe96_Svcj-_Kp4PT",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/e3QnsH0Gvqo/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBNaG0H2qJxc3ZqsRlW5Hxipgb7FQ",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/e3QnsH0Gvqo/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLD5aqF9zwtFjk_WBivwS-CxOASJ6A",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/e3QnsH0Gvqo/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDk-pIxGpm5OQstnDjdFiQw24VKQA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/e3QnsH0Gvqo/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAchUACME65uT3em5IwdpeRibW7_Q",
+            "width": 336
+          }
+        ],
+        "title": "Elia Cmiral - Spec Ops the Line OST",
+        "videoCount": "9"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCsE6C5781SM_FL_WAGP68HA",
+        "channelName": "TEK TUSH",
+        "playlistId": "PLTYvi9KdSOXpZPVdDVI2euV3PtWS28ywW",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/x_liczxalzk/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLD1Cb7socxhhjIbsGWJcpGiauqanA",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/x_liczxalzk/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCubVPvqG2lxg2kyIPAHj0zXQknCw",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/x_liczxalzk/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBmgjcpbpnhDR9q1_P6pDbDv-0NjA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/x_liczxalzk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBUgjYFKXiE5jrpeMRHU9_KqPCB9Q",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops The Line Soundtrack",
+        "videoCount": "10"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UC8kzJc4Mr8smSoM7e56XQBA",
+        "channelName": "jachESP3",
+        "playlistId": "PL948C3C37F1543F1D",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/Q5MdBe9NibU/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAgch3GGZU34FO02enUJwZsAmebuQ",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/Q5MdBe9NibU/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCqfM7Z42dZ_CHrNQOrhUhueRIkow",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/Q5MdBe9NibU/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBHIu_JxmHYGC8YiGEEKW-v4ZKWdQ",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/Q5MdBe9NibU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBFnDApUaGeRPC7G4I8K85ONTK8Tg",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops The Line OST",
+        "videoCount": "19"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCgYYqxxjZiT3R5SqLXCaIiQ",
+        "channelName": "XxExtremeSamX",
+        "playlistId": "PLXjISBGUSATVGsWCw2tkX3gBdUi9Lt-We",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/I0mC__bGcmM/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLC3WhvHW1yrp5qO4wqaRhfUXckSDg",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/I0mC__bGcmM/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCkp1C4K96kwB9ANp6_ego5mLfONA",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/I0mC__bGcmM/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAAznK_VOKhE9pVys2BRqiPVB5-OA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/I0mC__bGcmM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBh0L-Pd0wQHa0E1PPjgsCFi19Qvw",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops The Line - OST / Remixes",
+        "videoCount": "22"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCO4CSrpWgblK0qz-oA8yegA",
+        "channelName": "Zane Grimm",
+        "playlistId": "PLmJvqBlTVLfvNn5VKEtUmz5VBT3GiG-MY",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/afhPRXzrCtM/hqdefault.jpg?sqp=-oaymwEwCKgBEF5IWvKriqkDIwgBFQAAiEIYAfABAfgBrgWAAuADigIMCAAQARhyIEooQzAP&rs=AOn4CLDw0OrlbLqgMznF_SyP-HZGWPrdJQ",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/afhPRXzrCtM/hqdefault.jpg?sqp=-oaymwEwCMQBEG5IWvKriqkDIwgBFQAAiEIYAfABAfgBrgWAAuADigIMCAAQARhyIEooQzAP&rs=AOn4CLC0BSzmWiXTftEONCSvjviZSFqALA",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/afhPRXzrCtM/hqdefault.jpg?sqp=-oaymwExCPYBEIoBSFryq4qpAyMIARUAAIhCGAHwAQH4Aa4FgALgA4oCDAgAEAEYciBKKEMwDw==&rs=AOn4CLDuVxMolcSdrnK5qSfuzzYDUC0gEQ",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/afhPRXzrCtM/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4Aa4FgALgA4oCDAgAEAEYciBKKEMwDw==&rs=AOn4CLCXH1-evSjvJpOVqnT-yBvU9cLaxw",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops: The Line OST",
+        "videoCount": "24"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UC4Xn6qf-SV4wDXd1pcWcNfw",
+        "channelName": "heymanki",
+        "playlistId": "PLaUsItokvvCOK4fk96YnPvWk3KclaU9Eq",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/2-uuvGm31bk/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCRs_Nnk_OMbUtv-c2vQicC9X2TFw",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/2-uuvGm31bk/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCGfAVo4D1WHKYX59gtFYp71-rXhA",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/2-uuvGm31bk/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBKytnz5cnpIRs8XelPoRDdzqXu0A",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/2-uuvGm31bk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCg7O251EUhyt3rvxwfkoZgjZyiyQ",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops: The Line OST",
+        "videoCount": "12"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCGTn_uDcXg50oWM5Rmy6iDQ",
+        "channelName": "Game OST",
+        "playlistId": "PLaJdTW5fZ_aKqedNm-ouf_qfQPc3ldsV5",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/SNMSQh8jOzY/hqdefault.jpg?sqp=-oaymwEwCKgBEF5IWvKriqkDIwgBFQAAiEIYAfABAfgB1AaAAuADigIMCAAQARhlIGEoTTAP&rs=AOn4CLDHCjxtklLv7LsdF5qtDYGcAxNacg",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/SNMSQh8jOzY/hqdefault.jpg?sqp=-oaymwEwCMQBEG5IWvKriqkDIwgBFQAAiEIYAfABAfgB1AaAAuADigIMCAAQARhlIGEoTTAP&rs=AOn4CLDzRFrdnrJSypGAGr2NEJrzWVjoiA",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/SNMSQh8jOzY/hqdefault.jpg?sqp=-oaymwExCPYBEIoBSFryq4qpAyMIARUAAIhCGAHwAQH4AdQGgALgA4oCDAgAEAEYZSBhKE0wDw==&rs=AOn4CLABqE42Nnn5fUIy_UJUkmHk8OkqLw",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/SNMSQh8jOzY/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4AdQGgALgA4oCDAgAEAEYZSBhKE0wDw==&rs=AOn4CLDj1SkivJR_2EZtJ4h85qG5gu7xlg",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops: The Line Original Soundtrack",
+        "videoCount": "20"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCbok29TkttL9DyYUUYNAadw",
+        "channelName": "whickus",
+        "playlistId": "PL5iZYjV4bjNexI8DGkza5GhRBR4-pM4pl",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLDElT-sVcVCRX5vFtnEVq6EdMd2_w",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLB-azHvvHy3FXk4E6NTp7LGDSgVxg",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLChiLWzI8kLpl3ulFKgduNs6V3WLA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLARRBPCS7q-dN5Dki_qR56Hl8Re9g",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops The Line Soundtrack",
+        "videoCount": "43"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCuZZpci7U58UBJSx_iwDMsw",
+        "channelName": "Stoycho Vladev",
+        "playlistId": "PLBeftesNCRfWza8T2KyP7rjT1Bm-1Xems",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLDElT-sVcVCRX5vFtnEVq6EdMd2_w",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLB-azHvvHy3FXk4E6NTp7LGDSgVxg",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLChiLWzI8kLpl3ulFKgduNs6V3WLA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/jZWKxrPiiSQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLARRBPCS7q-dN5Dki_qR56Hl8Re9g",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops The Line OST",
+        "videoCount": "11"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UC_-fHS2Mt25Go0Z-_yzxj4A",
+        "channelName": "EpicBlargman",
+        "playlistId": "PLorh5fnQKS2wWvxc7phKNaQ6y9WQR-v1k",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/i71SXAK6SyQ/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAEhpGk8Nz1poP0OWPRS2rflsBH1A",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/i71SXAK6SyQ/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCgUjpoip8XLPvAwQvOJWa0ezf8Iw",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/i71SXAK6SyQ/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDYbGMMkgReAs_1z_YvtSHcCgFEPg",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/i71SXAK6SyQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDVggDXOVloPvAbKu3aZ5w_idKl4A",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops: The Line Music Rip",
+        "videoCount": "13"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCVwULwPhKzTLhPw-LfAsjUA",
+        "channelName": "Joel Ozuna",
+        "playlistId": "PL-2cWAHoS-U1nmY_9evHCsdUwRqj1shZK",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/lwTl0YK3Bqs/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAmz0SB9bqmO9fK7cbnGrrKlwSisQ",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/lwTl0YK3Bqs/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAzB33-1mEq95SjMu6G4nWWTM7ArQ",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/lwTl0YK3Bqs/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCNO096PVULpVs7TJ9mQ3TlP7d4Kw",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/lwTl0YK3Bqs/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDsL4xPtQogApREl-hG4LRKIktTRQ",
+            "width": 336
+          }
+        ],
+        "title": "Spec ops the line ost",
+        "videoCount": "8"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCZgdykKy1ELGkAKQN3s2zQg",
+        "channelName": "Kevin Aaland",
+        "playlistId": "PLUHATsfzWv1f7x9RWVg_QowbhSo6Rf0LQ",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/x_liczxalzk/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLD1Cb7socxhhjIbsGWJcpGiauqanA",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/x_liczxalzk/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCubVPvqG2lxg2kyIPAHj0zXQknCw",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/x_liczxalzk/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBmgjcpbpnhDR9q1_P6pDbDv-0NjA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/x_liczxalzk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBUgjYFKXiE5jrpeMRHU9_KqPCB9Q",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops: The Line Soundtracks",
+        "videoCount": "9"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCT3nE7TvYM_e5F14bUGNBzg",
+        "channelName": "Valics",
+        "playlistId": "PL8C97D6A9E5665905",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/3jV6TnBC2nk/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCJ3CGcGwKZI7WeAbfw7ulkl3x-yA",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/3jV6TnBC2nk/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLDFcJOPRdlvlGOUSDA-jEuZsR48nQ",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/3jV6TnBC2nk/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDq44j22n7BAKTMAodVOdM_Rgf5xw",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/3jV6TnBC2nk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC6Tve8PIOwAqzXQReZ3ZJHEqTLRw",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops The Line OST",
+        "videoCount": "15"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCY4rHnm1zwoPgqJzYJEtUSA",
+        "channelName": "Валерий",
+        "playlistId": "PLE9c7HoeJ-YKQbvsOwWQmkcggp1cwVTTq",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/wMXE3fulO8g/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLANwcSfkLeYvJTbS_CMOZue7UnY2A",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/wMXE3fulO8g/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBlIBe3XlPeE0UkdBaGH7L0YDNdoA",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/wMXE3fulO8g/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCRCHYxHcQyhOSa9_va6sTae5M7pw",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/wMXE3fulO8g/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBzbZXHneklGjFrXBsULVHx5pb0gA",
+            "width": 336
+          }
+        ],
+        "title": "OST Spec Ops the line",
+        "videoCount": "6"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCo0wbTlVCOi2dISO5dN8rjg",
+        "channelName": "Tellermine42",
+        "playlistId": "PLtrmY4FOS1LqFnvq5RD4IJnzXdPdmRVwJ",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/e3QnsH0Gvqo/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBNaG0H2qJxc3ZqsRlW5Hxipgb7FQ",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/e3QnsH0Gvqo/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLD5aqF9zwtFjk_WBivwS-CxOASJ6A",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/e3QnsH0Gvqo/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDk-pIxGpm5OQstnDjdFiQw24VKQA",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/e3QnsH0Gvqo/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAchUACME65uT3em5IwdpeRibW7_Q",
+            "width": 336
+          }
+        ],
+        "title": "Spec ops the line ost",
+        "videoCount": "10"
+      }
+    },
+    {
+      "playlist": {
+        "channelId": "UCdHS66PZ39pOFIhLNsUUxVw",
+        "channelName": "Vogls9",
+        "playlistId": "PLlCE3sTlpa5zIfvjaJ365xfz71qJt6OJ5",
+        "thumbnails": [
+          {
+            "height": 94,
+            "url": "https://i.ytimg.com/vi/DdL6Aq9u1Og/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLA4HQ28j0vMbHEf-vJEAn-OZ9_ogg",
+            "width": 168
+          },
+          {
+            "height": 110,
+            "url": "https://i.ytimg.com/vi/DdL6Aq9u1Og/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAJY6_NNausQyQ8bvBdTGzGVWfQ5Q",
+            "width": 196
+          },
+          {
+            "height": 138,
+            "url": "https://i.ytimg.com/vi/DdL6Aq9u1Og/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD0Qcj0DS8OzQ9GHaFTnX4tV2aD2w",
+            "width": 246
+          },
+          {
+            "height": 188,
+            "url": "https://i.ytimg.com/vi/DdL6Aq9u1Og/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCZAZB1MTrFQyqvqEyF5KGHkGRTLw",
+            "width": 336
+          }
+        ],
+        "title": "Spec Ops The Line OST",
+        "videoCount": "9"
+      }
+    }
+  ],
+  "estimatedResults": "6782",
+  "next": "Es0HEhZTcGVjIE9wczogVGhlIExpbmUgT1NUGrIHRWdJUUEwZ1VnZ0VpVUV4c1JHRmtPSEZ3V25reGVXOW5jVEZoU0ZkeVpEUTJjazFwU1VWME9YbEdUNElCRWxCTVFqVkZOVGxGUkRVNE1qbENSRUUwUTRJQklsQk1iRVJoWkRoeGNGcDVNWGhuVGxKT1drdzJhWGRuUm14Q2VsWmpiM0pOYlZXQ0FTSlFUR042VkRkM01teE9PSE5wWVV0NlZrRjVVVTl3T1ZaUmRWcFdlR2MxY0ZKb2dnRWlVRXhtV1RZeVduUlBkMGRxTlZSUGRGRnJSV1U1Tmw5VGRtTnFMVjlMY0RSUVZJSUJJbEJNVkZsMmFUbExaRk5QV0hCYVVGWmtSRlpKTW1WMVZqTlFkRmRUTWpoNWQxZUNBUkpRVERrME9FTXpRek0zUmpFMU5ETkdNVVNDQVNKUVRGaHFTVk5DUjFWVFFWUldSM05YUTNjeWRHdFlNMmRDWkZWcE9VeDBMVmRsZ2dFaVVFeHRTblp4UW14VVZreG1kazV1TlZaTFJYUlZiWG8xVmtKVU0wZHBSeTFOV1lJQklsQk1ZVlZ6U1hSdmEzWjJRMDlMTkdack9UWlpibEIyVjJzelMyTnNZVlU1UlhHQ0FTSlFUR0ZLWkZSWE5XWmFYMkZMY1dWa1RtMHRiM1ZtWDNGbVVWQmpNMnhrYzFZMWdnRWlVRXcxYVZwWmFsWTBZbXBPWlhoSk9FUkhhM3BoTlVkb1VrSlNOQzF3VFRSd2JJSUJJbEJNUW1WbWRHVnpUa05TWmxkNllUaFVNa3Q1VURkeWFsUXhRbTB0TVZobGJYT0NBU0pRVEc5eWFEVm1ibEZMVXpKM1YzWjRZemR3YUV0T1lWRTJlVGxYVVZJdGRqRnJnZ0VpVUV3dE1tTlhRVWh2VXkxVk1XNXRXVjg1WlhaSVEzTmtWWGRTY1dveGMyaGFTNElCSWxCTVZVaEJWSE5tZWxkMk1XWTNlRGxTVjFablgxRnZkMkpvVTI4MlVtWXdURkdDQVJKUVREaERPVGRFTmtFNVJUVTJOalU1TURXQ0FTSlFURVU1WXpkSWIyVktMVmxMVVdKMmMwOTNWMUZ0YTJOblozQXhZM2RXVkZSeGdnRWlVRXgwY20xWk5FWlBVekZNY1VadWRuRTFVa1EwU1VwdWVsaGtVR1J0VWxaM1NvSUJJbEJNYkVORk0zTlViSEJoTlhwSlpuWnFZVW96TmpWNFpubzNNWEZLZERaUFNqV3lBUVlLQkFnVUVBSSUzRBiB4OgYIgtzZWFyY2gtZmVlZA%3D%3D"
+}
