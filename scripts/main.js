@@ -9,7 +9,10 @@ searchForm.onsubmit = (ev) => {
   const queryText = formData.get("query");
   console.log("queryText", queryText);
 
-  pullGames(queryText);
+  searchGames(queryText).then((gameList) => {
+    console.log(gameList);
+    gameSearchButtonDom(gameList.results);
+  });
 };
 
 /** My APIs:
@@ -26,8 +29,13 @@ searchForm.onsubmit = (ev) => {
  */
 
 // Pull all games from the RAWG database
-const pullGames = (searchQuery) => {
+const searchGames = (searchQuery) => {
   console.log('pulling games from the RAWG database');
+
+  searchQuery = searchQuery.replaceAll(' ', '-'); // Replace all spaces with '-' for searching Database
+  searchQuery = searchQuery.replaceAll('&', '-');
+
+  console.log(searchQuery);
 
   const urlTest = `https://rawg-video-games-database.p.rapidapi.com/games?key=0b81130b95524eb6bb292ae0911635a8&search=${searchQuery}&search_exact=true&search-precise=true&page_size=25&exclude_stores=9`;
   const options = {
@@ -37,16 +45,37 @@ const pullGames = (searchQuery) => {
       'X-RapidAPI-Host': 'rawg-video-games-database.p.rapidapi.com'
     },
   };
-  fetch(urlTest, options)
-    .then((resp) => resp.json()).then(console.log);
+  return fetch(urlTest, options).then((resp) => resp.json());
 };
 
+// Puts search results on buttons and adds button functionality.
+const gameSearchButtonDom = (gameArray) => {
+
+  const buttonDiv = document.createElement('div');
+
+  let index = 0;
+  for (index = 0; index < gameArray.length; index++) {
+    let game = gameArray[index];
+    // console.log(game);
+    const button = document.createElement('button');
+    button.innerText = game.name;
+    button.onclick = (ev) => {
+      getGame(game.slug).then((gameResult) => {
+        gameObjDom(gameResult);
+      });
+      ev.preventDefault();
+    }
+    buttonDiv.appendChild(button);
+  }
+
+  const location = document.getElementById('game-buttons');
+  location.appendChild(buttonDiv);
+}
 
 
 // Method connects to the RawG game Database and returns the game if it can find one.
 // Throws an error if it cannot 
 const getGame = (game) => {
-  game = game.replaceAll(' ', '-'); // Replace all spaces with '-' for searching Database
   console.log(game);
   console.log("Searching database for", game);
 
@@ -152,7 +181,7 @@ const playlistObjDom = (playlist) => {
   iframe.width = "420";
   iframe.height = "315";
   // Find the SRC
-  iframe.src = `https://www.youtube.com/embed/?listType=playlist&list=${playlist.playlist.playlistId}`
+  iframe.src = `https://www.youtube.com/embed/?listType=playlist&list=${playlist.playlistId}`
   playListDiv.appendChild(iframe);
 
   // Inject division into dom (HTML)

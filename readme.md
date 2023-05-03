@@ -14,6 +14,4 @@ Process:
 - When the search button is pressed, clear the previous search results
 - Update the HTML on the website to include information about the APIs (write up)
 - Write a report.html file (similar to P1)
-- The program shouldn't ONLY do one game. It should pull many related games
-    - For example, if you type in 'spec ops' it should pull games with 'spec ops' in the title
-    - Have a list of buttons and then pull information about the game and trailers and stuff.
+- Once the button is pressed, YouTube playlist search
