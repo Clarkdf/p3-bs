@@ -1,7 +1,33 @@
-#book-results .card {
-  width: 8rem;
+img {
+  width:75%;
 }
 
-img {
-  width:50%;
+.button-div {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+button {
+  margin: 0.5rem;
+}
+
+/* When the screen shrinks to a specific size (intended for mobile) */
+@media screen and (max-width: 1240px) {
+  /* Image is enlarged */
+  img {
+      width: 100%;
+      padding-top: 25px;
+  }
+  /* Page is now left-oriented instead of center oriented */
+  /* Added Margins */
+  div {
+      justify-content: flex-start;
+      margin: 1rem;
+  }
+
+  .button-div {
+    flex-direction: column;
+    margin: 0.25rem;
+  }
 }

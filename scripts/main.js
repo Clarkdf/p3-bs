@@ -52,6 +52,7 @@ const searchGames = (searchQuery) => {
 const gameSearchButtonDom = (gameArray) => {
 
   const buttonDiv = document.createElement('div');
+  buttonDiv.className = 'button-div'
 
   let index = 0;
   for (index = 0; index < gameArray.length; index++) {
