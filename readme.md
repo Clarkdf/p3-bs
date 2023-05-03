@@ -15,3 +15,4 @@ Process:
 - Update the HTML on the website to include information about the APIs (write up)
 - Write a report.html file (similar to P1)
 - Once the button is pressed, YouTube playlist search
+- Style website with mobile and desktop view

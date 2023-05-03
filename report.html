@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 Report</title>
+    <link rel="icon" href="https://fav.farm/✊">
+</head>
+
+<body>
+    <header>
+        <h1>CS343 P3 - Report (Spring 2023)</h1>
+        <h2>David Clark</h2>
+    </header>
+
+    <main>
+        <section id="website-explanation">
+            <h3>This website works is as follows:</h3>
+            <ol>
+                <li>User enters website</li>
+                <li>User searches for a video game (or game franchise) in the search bar</li>
+                <li>Website connects to RAWG video game database and searches for games (picks at most 25)</li>
+                <li>The search results are displayed as buttons</li>
+                <li>User presses button, site reconnects with the rawG database, pulls, and displays information about
+                    the game</li>
+                <li>Website saves the game's title</li>
+                <li>Website connects to the YouTube search API and uses the title to search for the game's soundtrack
+                </li>
+                <li>Website pulls the first result from the search API and embeds it on the bottom of the page</li>
+            </ol>
+        </section>
+        <section id="website-requirements">
+            <h3>Website meets Project requirements:</h3>
+            <ul>
+                <li>Site is Deployed <a href="#">here</a></li>
+                <li>TODO: Style website with mobile and desktop view</li>
+                <li>Uses the following APIs:
+                    <ul>
+                        <li><a href="https://rapidapi.com/accujazz/api/rawg-video-games-database">RAWG Video Game
+                                Database</a></li>
+                        <li><a href="https://rapidapi.com/h0p3rwe/api/youtube-search-and-download">YouTube Video
+                                Searcher</a></li>
+                </li>
+            </ul>
+            <li>Implemented Search (Searches RAWG database for video games)</li>
+            <li>Displays results from search (At most 25 search results from the database)</li>
+            <li>Results are filterable: press a button ot pick the exact game you want</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
