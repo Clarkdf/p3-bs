@@ -10,9 +10,5 @@ Process:
 - When user clicks this button, YouTube searcher will search for a playlist (takes title, and adds 'OST')
 - Returns results below
 
-# TODO:
-- When the search button is pressed, clear the previous search results
-- Update the HTML on the website to include information about the APIs (write up)
-- Write a report.html file (similar to P1)
-- Once the button is pressed, YouTube playlist search
-- Style website with mobile and desktop view
+Link to Report: 
+Link to Site:

@@ -1,5 +1,3 @@
-
-/** TODO: Add it so that it clears the GameResults div in index when search is submitted */
 const searchForm = document.getElementById("top-search");
 searchForm.onsubmit = (ev) => {
   console.log("submitted top-search with", ev);
