@@ -62,6 +62,10 @@ const gameSearchButtonDom = (gameArray) => {
     button.onclick = (ev) => {
       getGame(game.slug).then((gameResult) => {
         gameObjDom(gameResult);
+        return searchYouTubePlaylists(gameResult.name_original);
+      }).then((playListSearchResults) =>  {
+        console.log(playListSearchResults);
+        playlistObjDom(playListSearchResults.contents[0]); // We're only interested in the first result
       });
       ev.preventDefault();
     }
@@ -181,7 +185,7 @@ const playlistObjDom = (playlist) => {
   iframe.width = "420";
   iframe.height = "315";
   // Find the SRC
-  iframe.src = `https://www.youtube.com/embed/?listType=playlist&list=${playlist.playlistId}`
+  iframe.src = `https://www.youtube.com/embed/?listType=playlist&list=${playlist.playlist.playlistId}`
   playListDiv.appendChild(iframe);
 
   // Inject division into dom (HTML)
