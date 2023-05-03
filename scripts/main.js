@@ -61,7 +61,7 @@ const gameSearchButtonDom = (gameArray) => {
     button.onclick = (ev) => {
       getGame(game.slug).then((gameResult) => {
         gameObjDom(gameResult);
-        return searchYouTubePlaylists(gameResult.name_original);
+        return searchYouTubePlaylists(gameResult);
       }).then((playListSearchResults) =>  {
         console.log(playListSearchResults);
         playlistObjDom(playListSearchResults.contents[0]); // We're only interested in the first result
@@ -154,9 +154,11 @@ const gameObjDom = (gameData) => {
 
 // Uses YouTube Search API, returns a long list of playlists 
 // Adds ' OST' to the provided game title
-const searchYouTubePlaylists = (gameTitle) => {
+const searchYouTubePlaylists = (gameData) => {
 
-  const url = `https://youtube-search-and-download.p.rapidapi.com/search?query=${gameTitle}%OST&hl=en&gl=US&type=p&sort=r`;
+  const searchQuery = gameData.name_original + " OST"
+  console.log(searchQuery)
+  const url = `https://youtube-search-and-download.p.rapidapi.com/search?query=${searchQuery}&hl=en&gl=US&type=p&sort=r`;
   const options = {
     method: 'GET',
     headers: {
