@@ -2,6 +2,10 @@ const searchForm = document.getElementById("top-search");
 searchForm.onsubmit = (ev) => {
   console.log("submitted top-search with", ev);
   ev.preventDefault();
+
+  // clear old Data if applicable.
+  clearPastData();
+
   // https://stackoverflow.com/a/26892365/1449799
   const formData = new FormData(ev.target);
   const queryText = formData.get("query");
@@ -13,7 +17,46 @@ searchForm.onsubmit = (ev) => {
   });
 };
 
-/** My APIs:
+/**
+ * FUNCTIONS FOR CLEARING USER GENERATED DATA
+ * FROM THE DOM*/
+
+// clears all user-generated data from the dom
+function clearPastData() {
+  // Clears EVERYTHING
+  clearButtons();
+  clearGameData();
+  clearPlaylist();
+}
+
+
+// Clears BUttons from the Dom
+function clearButtons() {
+  // Clear old buttons
+  const buttonDiv = document.getElementById('game-buttons');
+  buttonDiv.innerHTML = '';
+  buttonDiv.innerText = '';
+}
+
+// Clears game data from Dom
+function clearGameData() {
+  // Clear old gameData
+  const gameDataDiv = document.getElementById('game-results');
+  gameDataDiv.innerHTML = '';
+  gameDataDiv.innerText = '';
+}
+
+// Clears Playlist from Dom
+function clearPlaylist() {
+  // Clear youTube playList
+  const playlistDiv = document.getElementById('playlist-results');
+  playlistDiv.innerHTML = '';
+  playlistDiv.innerText = '';
+}
+
+/** 
+ * API FUNCTIONS
+ * My APIs:
  * 1) https://rapidapi.com/accujazz/api/rawg-video-games-database (special dev key = 0b81130b95524eb6bb292ae0911635a8)
  * 2) https://rapidapi.com/h0p3rwe/api/youtube-search-and-download
  * 
@@ -60,9 +103,13 @@ const gameSearchButtonDom = (gameArray) => {
     button.innerText = game.name;
     button.onclick = (ev) => {
       getGame(game.slug).then((gameResult) => {
+        // First clear old data (if present)
+        clearGameData();
+        clearPlaylist();
+        // Then display new gameData and new results
         gameObjDom(gameResult);
         return searchYouTubePlaylists(gameResult);
-      }).then((playListSearchResults) =>  {
+      }).then((playListSearchResults) => {
         console.log(playListSearchResults);
         playlistObjDom(playListSearchResults.contents[0]); // We're only interested in the first result
       });
@@ -139,13 +186,18 @@ const gameObjDom = (gameData) => {
 
   // Add release Data:
   const releaseDate = document.createElement('p');
-  releaseDate.innerText = "Release Data: " + gameData.released;
+  releaseDate.innerText = "Release Date: " + gameData.released;
   gameDiv.appendChild(releaseDate);
 
   // Add Metacritic Score:
-  const score = document.createElement('p');
-  score.innerText = "Metacritic Score: " + gameData.metacritic;
-  gameDiv.appendChild(score);
+  const metaScore = document.createElement('p');
+  metaScore.innerText = "Metacritic Score: " + gameData.metacritic;
+  gameDiv.appendChild(metaScore);
+
+  // Add UserScore
+  const userScore = document.createElement('p');
+  userScore.innerText = "User Score: " + gameData.rating;
+  gameDiv.appendChild(userScore);
 
   // Inject division into dom (HTML)
   const loc = document.getElementById('game-results');
@@ -181,7 +233,7 @@ const playlistObjDom = (playlist) => {
   // Create playlist div object
   const playListDiv = document.createElement('div'); // create the primary-div
 
-  // Create iframe (for YouTUbe)
+  // Create iframe (for YouTube)
   const iframe = document.createElement('iframe');
   iframe.width = "420";
   iframe.height = "315";
